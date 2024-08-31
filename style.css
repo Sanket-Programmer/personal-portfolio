@@ -1,0 +1,1361 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-color: rgb(226, 201, 250);
+    color: #222831;
+    width: 100%;
+    overflow-x: hidden;
+   
+}
+
+.profile{
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(120deg , rgb(241, 226, 255) 60% , rgb(127, 35, 208) 60%);
+    height: 50vw;
+    width: 100vw;
+}
+
+.profile img{
+    position: absolute;
+    left: 65vw;
+    top: 10vw;
+    height: 40vw;
+}
+
+.profile .hii
+{
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.profile .hii h1 {
+    font-size: 6vw;
+}
+
+.profile .hii h2{
+    font-size: 2vw;
+}
+.profile .hii h3{
+    font-size: 1.5vw;
+}
+
+.profile .hii button{
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    border: 1px solid black;
+}
+.profile .icons
+{
+    position: absolute;
+    left: 95vw;
+    top: 15vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    color: white;
+}
+
+.skills{
+    position: absolute;
+    top: 87vw;
+    left: 10vw;
+}
+
+.skills .logo{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7vw;
+    position: absolute;
+    top: 10vw;
+    text-align: center;
+}
+
+.skills .logo p{
+    padding: 2.5vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 50px 0px rgb(173, 105, 237)  ;
+    font-weight: 600;
+    font-size: 2.5vw;
+    font-family: "Coda", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    color: #222831;
+    background-color: rgb(241, 226, 255);
+    
+}
+
+.row
+{
+    position: absolute;
+    top: 55vw;
+    left: 5vw;
+    width: 92vw;
+    color: white;
+    background-image: linear-gradient(50deg , white  ,rgb(180, 93, 255));
+}
+
+.projects{
+    position: relative;
+    top: 137vw;
+    left: 10vw;
+    width: 80vw;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+
+.projects .project1{
+    position: relative;
+    top: 3vw;
+}
+
+.projects .project2{
+    position: relative;
+    top: 11vw;
+}
+
+.thought
+{
+    position: relative;
+    top: 170vw;
+    left: 10vw;
+    width: 80vw;
+    height: fit-content;
+    background-color:rgb(118, 36, 189);;
+    color: white;
+    padding: 50px;
+    border-radius: 2vw;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vw;
+}
+.thought h1{
+    font-size: 4vw;
+}
+#hanging-icons{
+    position: relative;
+    top: 137vw;
+    left: 10vw;
+    width: 80vw;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+
+#hanging-icons .row
+{
+    position: relative;
+    left: 0vw;
+    top: 30vw;
+  background:none;
+  width: 80vw;
+}
+
+nav{
+    width: 95vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 2vw;
+    left: 2.5vw;
+    z-index: 1;
+    border-radius: 150vw;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(43, 43, 43, 0.568);
+}
+
+nav ul{
+    margin-right: 20px;
+   position: absolute;
+   top: 0.7vw;
+   left: 18vw;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;  
+    margin-top: 0;
+}
+
+nav ul li a{
+    color: rgb(180, 93, 255);
+    font-size:1vw;
+    padding: 1vw;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    left: 15vw;
+}
+
+a:hover{
+    background-color: black;
+    transition: 0.5s;
+    background: none;
+}
+
+.checkbtn img{
+    position: absolute;
+    top: 10px;
+    left: 1600px;
+    height: 35px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+nav button {
+    position: absolute;
+    left: 83vw;
+     top: 0.6vw;
+     border-radius: 0.5vw;
+     padding: 1vw;
+}
+nav .mylogo img{
+    position: relative;
+    top: -0.1vw;
+    height: 3.5vw;
+    left: 30px;
+}
+nav .btn {
+    font-size: 1vw;
+}
+
+footer{
+    position: relative;
+    top: 180vw;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 20%;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+footer ul li a{
+    color: #EEEEEE;
+}
+
+.contacts{
+    position: relative;
+    top: 175vw;
+    left: 10vw;
+    width: 80vw;
+    font-size: 2vw;
+}
+
+.skills .logo p:hover{
+    background-color: rgb(121, 29, 201);
+    color: white;
+}
+
+.skills h1{
+    font-size: 4vw;  
+    font-family:Rajdhani, sans-serif; 
+    font-weight: 900; 
+    color: rgb(164, 60, 255);
+}
+
+.profile .hii h1{
+    font-size: 6vw; 
+    color: rgb(164, 60, 255);
+    font-family:DM Serif Text, serif;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+.skills .logo p img{
+    width: 15vw;   
+}
+
+.skills hr{
+    width: 80vw;
+}
+
+.projects h1{
+    font-size: 4vw;
+    font-weight: 900; 
+    color: rgb(164, 60, 255);
+}
+
+.projects .project1 img{
+    width: 40vw;
+     float: right; 
+      border-radius: 1vw;
+}
+
+.projects .project1 h2{
+    font-weight: 700;
+    color: rgb(164, 60, 255);
+    font-size: 2.5vw;
+}
+.projects .project1 button{
+    font-size: 1.5vw;
+    font-weight: 500;
+    border-radius: 0.5vw;
+    border: 1px solid black;
+}
+
+.projects .project1 p{
+    width: 35vw;
+}
+
+.projects .project1 hr{
+    position: relative;
+     top: 4vw;
+      width: 80vw;
+}
+.projects .project2 h2{
+    text-align: right;
+    font-weight: 700;
+    color: rgb(164, 60, 255);
+    font-size: 2.5vw;
+}
+.projects .project2 p{
+    text-align: right;
+    float: left; 
+    width: 35vw;
+     position:absolute; 
+     left: 45vw;
+}
+.projects .project2 button{
+    float: right;
+     position: relative;
+      top: 21vw;
+      font-size: 1.5vw;
+      font-weight: 500;
+      border-radius: 0.5vw;
+      border: 1px solid black;
+}
+.projects .project2 hr{
+    position: relative; 
+    top: 6vw;
+    width: 80vw;
+}
+
+.projects .project2 img{
+    width: 40vw; 
+    float: left; 
+    border-radius: 1vw;
+}
+
+.projects .project3 img{
+    width: 40vw; 
+    float: right;
+    
+      position: relative;
+       top: 21vw;
+        border-radius: 1vw;
+}
+.projects .project3 h2{
+    position: relative; 
+    top: 20vw;
+    font-weight: 700;
+    color: rgb(164, 60, 255);
+    font-size: 2.5vw;
+}
+.projects .project3 p{
+    position: relative; 
+    top: 20vw; 
+    width: 35vw;
+}
+.projects .project3 button{
+    position: relative; 
+    top: 20vw;
+     z-index: 1;
+     font-size: 1.5vw;
+     font-weight: 500;
+     border-radius: 0.5vw;
+     border: 1px solid black;
+}
+.projects .project3 hr{
+    position: relative;
+     top: 26vw; 
+     width: 80vw;
+}
+
+#hanging-icons h1{
+    position: relative; 
+    top: 30vw;
+    font-size: 4vw;
+    font-family:Rajdhani, sans-serif; 
+    font-weight: 900;
+    color: rgb(164, 60, 255);
+}
+
+#hanging-icons .row .col .text-body-emphasis .bi-paint-bucket{
+    height:0px; 
+    font-size: 3vw;
+}
+
+#hanging-icons .row .col h3{
+    font-size: 2vw;
+    font-weight: 700;
+    color: rgb(164, 60, 255);
+}
+
+#hanging-icons .row .col .icon-square i{
+    font-size: 2.5vw;
+    color: rgb(164, 60, 255);
+}
+
+.thought img{
+    height: 15vw; 
+    border-radius:  50%;
+     position: relative;
+     left: 30vw;
+     top: 2vw;
+}
+.contacts h1{
+    font-size: 4vw;
+    font-family:Rajdhani, sans-serif; 
+    font-weight: 900; 
+    color: rgb(164, 60, 255);
+}
+
+.row img{
+    width: 35vw;
+    position: relative;
+    left: 1.5vw;
+}
+
+.row .col-lg-7 h2{
+    font-size: 4vw;
+}
+.row .col-lg-7 p{
+    font-size: 1.5vw;
+}
+
+
+footer .nav a:hover{
+     background: none;
+}
+
+@media (min-width:1024px) and (max-width:1440px)
+{
+    nav .mylogo img{
+        position: relative;
+        left: 1.5vw;
+        height: 4vw;
+    }
+
+    nav .navigation{
+        position: absolute;
+        left:14vw;
+        top: 0.5vw;
+    }
+
+    nav button{
+        position: absolute;
+        left: 80vw;
+        top: 0.6vw;
+    }
+    nav{
+        height: 4vw;
+    }
+
+    .thought{
+        height: fit-content;
+    }
+
+    .skills{
+        position: absolute;
+        top: 89vw;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px)
+{
+    .row .col-lg-7 p
+    {
+        width: 50vw;
+    }
+    .row img{
+        position: relative;
+        left: 53vw;
+        bottom: 12vw;
+    }
+    .row{
+        height: 38vw;
+    }
+
+    .skills{
+        position: absolute;
+        top: 100vw;
+    }
+
+    .projects{
+        position: relative;
+        top: 150vw;
+    }
+
+    #hanging-icons{
+        position: relative;
+        top: 148vw;
+    }
+
+    .thought{
+        position: relative;
+        top: 180vw;
+    }
+
+    .contacts{
+        position: relative;
+        top: 185vw;
+    }
+
+    footer{
+        position: relative;
+        top: 190vw;
+    }
+
+    nav .mylogo img{
+        position: relative;
+        left: 1vw;
+        top: 0.1vw;
+    }
+
+    .row img{
+        position: relative;
+        left: 54vw;
+        bottom: 13vw;
+    }
+
+    nav .navigation{
+        position: absolute;
+        left: 8vw;
+        top: -0.2vw;
+    }
+
+    nav button{
+        position: absolute;
+        left: 80vw;
+        bottom: 0.5vw;
+    }
+
+    nav{
+        height: 4vw;
+    }
+}
+
+@media (min-width:425px) and (max-width:500px){
+    .row {
+        position: absolute;
+        left: 6vw;
+    }
+
+    .row img{
+        position: relative;
+        left: 45vw;
+        bottom: 7vw;
+        left: 52.5vw;
+    }
+
+    .row{
+        height: 55vw;
+    }
+
+    .row .col-lg-7 p{
+        font-size: 2vw;
+    }
+
+    .skills{
+        position: absolute;
+        top: 115vw;
+        left: 10vw;
+    }
+
+    .skills hr{
+        width: 80vw;
+    }
+
+    .projects{
+        position: relative;
+        top: 165vw;
+    }
+
+    .projects .project2 img{
+        position: relative;
+        bottom: 3vw;
+    }
+    .projects .project2 h2{
+        position: relative;
+        bottom: 3vw;
+    }
+    .projects .project2 p{
+        position: absolute;
+      bottom: -2vw;
+    }
+    .projects .project2 button{
+        position: absolute;
+        left: 68vw;
+        top: 23vw;
+    }
+
+    .projects .project2 hr{
+        position: relative;
+        top: 7vw;
+    }
+
+    #hanging-icons {
+        position: relative;
+        top: 165vw;
+    }
+
+    #hanging-icons .row{
+        position: relative;
+        top: 25vw;
+        font-size: 2.5vw;
+    }
+
+    #hanging-icons .row .col h3{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .thought{
+        position: relative;
+        top: 215vw;
+        padding: 5vw;
+    }
+
+    .thought img{
+        position: relative;
+        left: 27vw;
+    }
+
+    .contacts{
+        position: relative;
+        top: 220vw;
+    }
+
+    footer{
+        position: relative;
+        top: 225vw;
+    }
+    nav{
+        height: 5vw;
+    }
+
+    nav .mylogo img{
+        position: relative;
+        left: 1vw;
+        top: 0.5vw;
+    }
+
+    nav .navigation{
+        position: absolute;
+        left: 1vw;
+        top: -1.5vw;
+    }
+
+    nav button{
+      position: relative;
+      left: 73vw;
+      top: -0.65vw;
+    }
+    
+}
+
+@media (min-width:500px) and (max-width:580px)
+{
+    .row img{
+        position: relative;
+        left: 52vw;
+        bottom: 7vw;
+    }
+
+    .row{
+        height: 54vw;
+        position: relative;
+        top: -4vw;
+        left: 4vw;
+    }
+
+    .row .col-lg-7 p{
+        font-size: 2vw;
+    }
+
+    .skills{
+        position: absolute;
+        top: 115vw;
+    }
+
+    .projects{
+        position: relative;
+        top: 105vw;
+    }
+
+    .skills hr{
+        width: 80vw;
+    }
+
+    .projects .project2 h2{
+        position: relative;
+        bottom: 3vw;
+    }
+    .projects .project2 p{
+        position: absolute;
+      bottom: -2vw;
+    }
+    .projects .project2 button{
+        position: absolute;
+        left: 68vw;
+        top: 23vw;
+    }
+
+    .projects .project2 hr{
+        position: relative;
+        top: 7vw;
+    }
+
+    #hanging-icons {
+        position: relative;
+        top: 105vw;
+    }
+
+    #hanging-icons .row{
+        position: relative;
+        top: 25vw;
+        font-size: 2.5vw;
+    }
+
+    #hanging-icons .row .col h3{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    .thought{
+        position: relative;
+        top: 130vw;
+        padding: 5vw;
+    }
+
+    .thought img{
+        position: relative;
+        left: 27vw;
+    }
+
+    .contacts{
+        position: relative;
+        top: 140vw;
+    }
+
+    footer{
+         position: relative;
+         top: 140vw;
+    }
+    nav{
+        height: 5vw;
+    }
+
+    nav .mylogo img{
+        position: relative;
+        left: 1vw;
+        top: 0.5vw;
+    }
+
+    nav .navigation{
+        position: absolute;
+        left: 1vw;
+        top: -0.7vw;
+    }
+
+    nav button{
+      position: relative;
+      left: 73vw;
+      top: -0.6vw;
+    }
+    
+}
+
+@media(min-width:575px) and (max-width:579px)
+{
+    .row img{
+        position: relative;
+        left: 52vw;
+        bottom: 7vw;
+    }
+
+    .row{
+        height: 54vw;
+        position: relative;
+        top: -4vw;
+        left: 1vw;
+    }
+
+    .row .col-lg-7 p{
+        font-size: 2vw;
+    }
+}
+@media(min-width:580px) and (max-width:768px)
+{
+    .row img{
+        position: relative;
+        left: 52vw;
+        bottom: 7vw;
+    }
+
+    .row{
+        height: 54vw;
+        position: absolute;
+        top: 55vw;
+        left: 5.5vw;
+
+    }
+
+    .row .col-lg-7 p{
+        font-size: 2vw;
+    }
+
+    .skills{
+        position: absolute;
+        top: 115vw;
+    }
+
+    .projects{
+        position: relative;
+        top: 105vw;
+    }
+
+    .skills hr{
+        width: 80vw;
+    }
+
+    .projects .project2 h2{
+        position: relative;
+        bottom: 3vw;
+    }
+    .projects .project2 p{
+        position: absolute;
+      bottom: -2vw;
+    }
+    .projects .project2 button{
+        position: absolute;
+        left: 68vw;
+        top: 23vw;
+    }
+
+    .projects .project2 hr{
+        position: relative;
+        top: 7vw;
+    }
+
+    #hanging-icons {
+        position: relative;
+        top: 105vw;
+    }
+
+    #hanging-icons .row{
+        position: relative;
+        top: 25vw;
+        font-size: 2.5vw;
+    }
+
+    #hanging-icons .row .col h3{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    .thought{
+        position: relative;
+        top: 145vw;
+        padding: 5vw;
+    }
+
+    .thought img{
+        position: relative;
+        left: 27vw;
+    }
+
+    .contacts{
+        position: relative;
+        top: 150vw;
+    }
+
+    footer{
+         position: relative;
+         top: 150vw;
+    }
+    nav{
+        height: 5vw;
+    }
+
+    nav .mylogo img{
+        position: relative;
+        left: 1vw;
+        top: 0.5vw;
+    }
+
+    nav .navigation{
+        position: absolute;
+        left: 3.5vw;
+        top: -0.1vw;
+    }
+
+    nav button{
+      position: relative;
+      left: 73vw;
+      top: -0.6vw;
+    }
+}
+@media (min-width:992px) and (max-width:1024px)
+{
+
+    .row{
+        height: fit-content;
+    }
+    .row img{
+        position: relative;
+        top: -0.5vw;
+        left: 1.5vw;
+    }
+    .skills{
+        position: absolute;
+        top: 90vw;
+    }
+    nav .mylogo img{
+        position: relative;
+        left: 1vw;
+        top: 0.2vw;
+    }
+
+    nav .navigation{
+        position: absolute;
+        left: 10vw;
+        top: 0.3vw;
+    }
+
+    nav button{
+        position: absolute;
+        left: 80vw;
+        top: 0.4vw;
+    }
+    nav{
+        height: 4vw;
+    }
+}
+
+@media (max-width:425px){
+    .profile{
+        width: 400vw;
+        height: 476vw;
+        background-image: linear-gradient(145deg , rgb(241, 226, 255) 60% , rgb(127, 35, 208) 60%);
+    }
+
+    .profile .hii{
+        position: absolute;
+        top: 120vw;
+        left: 25vw;
+        font-size: 10vw;
+        width: 350vw;
+    }
+    .profile img{
+        position: absolute;
+        top: 240vw;
+        left: 200vw;
+        height: 236vw;
+    }
+
+    .profile .icons{
+        position: absolute;
+        left: 360vw;
+        top: 230vw;
+        font-size: 15vw;
+    }
+
+    .profile .hii h2{
+        font-size: 15vw;
+    }
+
+    .profile .hii h1 span{
+        font-size: 25vw;
+    }
+
+    .profile .hii h3{
+        font-size: 15vw;
+    }
+    .profile .hii button{
+        font-size: 10vw;
+        border-radius: 3vw;
+    }
+
+    .row{
+        position: absolute;
+        top: 500vw;
+        width: 340vw;
+        left: 33vw;
+
+    }
+
+    .skills{
+        position: absolute;
+        top: 520vw;
+    }
+
+    .row .col-lg-7 h2{
+        font-size: 30vw;
+    }
+
+    .row .col-lg-7 p{
+        font-size: 14vw;
+    }
+    
+    .row img{
+        width: 340vw;
+        position: relative;
+        left: 5px;
+    }
+
+    .skills{
+        position: relative;
+        top: 460vw;
+        left: 60vw;
+    }
+
+    .skills h1{
+        font-size: 25vw;
+    }
+
+    .projects{
+        position: relative;
+        top: 1250vw;
+        left: 60vw;
+    }
+
+    .thought{
+        position: relative;
+        top: 1940vw;
+        left: 50vw;
+        height: 400vw;
+        width: 300vw;
+    }
+
+    .contacts{
+        position: relative;
+        top: 1970vw;
+        left: 50vw;
+        width: 300vw;
+    }
+    footer{
+        position: relative;
+        top: 2000vw;
+        width: 400vw;
+        font-size: 10vw;
+    }
+    .skills hr{
+        width: 280vw;
+    }
+    .skills .logo {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 35vw;
+    }
+    .skills .logo p{
+        font-size: 18vw;
+        width: 120vw;
+        height: 120vw;
+        position: relative;
+        top: 45vw;
+        border-radius: 8vw;
+        padding: 10vw;
+    }
+    .skills .logo .banner img {
+        width: 75vw;
+    }
+
+    .projects h1{
+       font-size: 25vw;
+    }
+
+    .projects hr{
+        width: 280vw;
+    }
+
+    .projects .project1 {
+        width: 900vw;
+        height: 250vw;
+    }
+
+    .projects .project1 img{
+        width: 280vw;
+        position: absolute;
+        top: 210vw;
+    }
+
+    .projects .project1 h2{
+        font-size: 18vw;
+    }
+    .projects .project1 p{
+        font-size: 12vw;
+        width: 290vw;
+    }
+
+    .projects .project1 button{
+        font-size: 13vw;
+        border-radius: 4vw;
+    }
+
+    .projects .project1 hr{
+        position: relative;
+        top: 230vw;
+        width: 280vw;
+    }
+
+    .projects .project2{
+       width: 900vw;
+       height: 250vw;
+       position: relative;
+       top: 200vw;
+    }
+
+    .projects .project2 img{
+        position: absolute;
+        top: 220vw;
+        width: 280vw;
+    }
+
+    .projects .project2 h2{
+       font-size: 18vw;
+       position: absolute;
+       left: 1vw;
+    }
+
+    .projects .project2 p{
+        font-size: 12vw;
+        width: 290vw;
+       text-align: left;
+       position: absolute;
+       left: 1vw;
+       top: 23vw;
+    }
+
+    .projects .project2 hr{
+        position: relative;
+        top: 410vw;
+        width: 280vw;
+    }
+
+    .projects .project2 button{
+        position: absolute;
+        left: 1vw;
+        top: 180vw;
+        font-size: 13vw;
+        border-radius: 4vw;
+    }
+
+    .projects .project3 {
+        position: relative;
+        top: 350vw;
+    }
+
+    .projects .project3 img{
+        position: absolute;
+        top: 235vw;
+        width: 280vw;
+    }
+
+    .projects .project3 h2{
+        font-size: 18vw;
+        width: 100vw;
+    }
+
+    .projects .project3 p{
+        font-size: 12vw;
+        width: 290vw;
+    }
+
+    .projects .project3 button{
+        font-size: 13vw;
+        border-radius: 4vw;
+    }
+
+    .projects .project3 hr{
+        position: relative;
+        top:300vw;
+        width: 280vw;
+    }
+
+    #hanging-icons {
+        position: relative;
+        top: 1900vw;
+        left: 50vw;
+        
+    }
+
+    #hanging-icons h1{
+        font-size: 28vw;
+        font-weight: 600;
+        position: relative;
+        top: 15vw;
+        width: 300vw;
+    }
+
+    #hanging-icons .row{
+        position: relative;
+        top: 20vw;
+        width: 300vw;
+    }
+
+    #hanging-icons .row .col .head1 h3{
+        font-size: 20vw;
+    }
+    #hanging-icons .row .col .head2 h3{
+        font-size: 20vw;
+    }
+    #hanging-icons .row .col .head3 h3{
+        font-size: 20vw;
+    }
+
+
+    #hanging-icons .row .col{
+        font-size: 15vw;
+    }
+
+    #hanging-icons .row .col .text-body-emphasis .bi{
+        font-size: 30vw;
+        }
+
+    #hanging-icons .row .col .head1 .text-body-emphasis{
+       font-size: 20vw;
+       font-weight: 600;
+    }
+
+    #hanging-icons .row .col .head2 .text-body-emphasis{
+        font-size: 20vw;
+        font-weight: 600;
+     }
+
+     #hanging-icons .row .col .head3 .text-body-emphasis{
+        font-size: 20vw;
+        font-weight: 600;
+     }
+
+     .thought{
+        border-radius: 7vw;
+     }
+    .thought h1{
+        font-size: 30vw;
+    }
+
+    .thought p{
+        font-size: 20vw;
+    }
+
+    .thought i{
+        font-size: 20vw;
+    }
+
+    .thought img{
+        height: 100vw;
+        position: relative;
+        left: 85vw;
+        top: 30vw;
+    }
+    
+    .contacts h1{
+        font-size: 25vw;
+    }
+
+    .contacts .bi{
+        font-size: 15vw;
+    }
+     
+    .contacts p{
+        font-size: 15vw;
+    }
+    
+    nav{
+        position: absolute;
+        left: 20vw;
+        top: 25vw;
+        width: 360vw;
+        height: 50vw;
+        border-radius: 10vw;
+        background-color: rgb(226, 193, 255);
+    }
+
+    nav .mylogo img{
+    
+        height: 50vw;
+        position: relative;
+        top: -1vw;
+        left: -1vw;
+    }
+
+    nav button{
+        position: absolute;
+        left: 138vw;
+        top: 11vw;
+        height: 30vw;
+        width: 100vw;
+        
+   }
+    nav button h1{
+        font-size: 50vw;
+    }
+
+    .checkbtn img{
+        display: block;
+        position: absolute;
+        left: 300vw;
+        top: 5vw;
+        height: 40vw;
+        
+    }
+    
+    .navigation{
+        position: fixed;
+        width: 100%;
+        height: 380vw;
+        background-color: rgb(217, 174, 255);
+        top: 60vw;
+        left: -110%;
+        display: flex;
+        flex-direction: column;
+        gap: 30vw;
+        transition: all .5s;
+        z-index: 1;
+        border-radius: 10vw;
+        text-align: center;
+    }
+
+    a:hover{
+        background: none;
+    }
+
+    .navigation a:hover{
+        color: white;
+    }
+
+    #check:checked ~ ul{
+        left: 0;  
+    }
+
+    .navigation a{
+        font-size: 25vw;
+        text-align: justify;
+        position:relative;
+        top:30vw;    
+        left: 2vw;
+        color: #222831;
+        font-family: "Coda", system-ui;
+    }
+    
+    nav .btn{
+        font-size: 10vw;
+        border: 1px solid black;
+    }
+}
